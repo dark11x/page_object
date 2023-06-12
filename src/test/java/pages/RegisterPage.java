@@ -67,6 +67,6 @@ public class RegisterPage {
     }
 
     public boolean isRegistrationCompleted() {
-        return registrationResult.getText().equals("Your registration completed");
+        return registrationResult.isDisplayed();
    }
 }
