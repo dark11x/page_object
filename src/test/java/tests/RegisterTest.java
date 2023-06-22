@@ -29,6 +29,7 @@ public class RegisterTest extends BaseTest{
                 .clickRegisterButton()
                 .isRegistrationCompleted();
         Assertions.assertTrue(isRegSuccess, "Registration failed");
+        //test
     }
 
     @Test
